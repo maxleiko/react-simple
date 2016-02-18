@@ -1,0 +1,40 @@
+.menu .label {
+  padding-right: 10px;
+}
+
+.menu button {
+  margin-right: 8px;
+}
+
+.container {
+
+}
+
+.component {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+
+.component > .header {
+  height: 21px;
+  background-color: #222;
+  border-bottom: 1px solid #ccc;
+}
+
+.component > .header h5 {
+  float: left;
+  margin: 0 0 0 5px;
+  vertical-align: middle;
+  line-height: 21px;
+}
+
+.component > .header > .close {
+  float: right;
+  cursor: pointer;
+}
+
+.component > .content {
+}
