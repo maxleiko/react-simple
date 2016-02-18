@@ -8,6 +8,6 @@ h2 {
   border-bottom: 1px solid #ccc;
 }
 
-#dashboard {
-
+.update-comp-types {
+  float: right;
 }
