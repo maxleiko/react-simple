@@ -1,5 +1,7 @@
 require('../style/dashboard.css');
 
+var React = require('react');
+
 var shortid = require('./shortid');
 var resolver = require('./resolver');
 

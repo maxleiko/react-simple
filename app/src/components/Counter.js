@@ -11,7 +11,6 @@ var Counter = React.createClass({
     this.setState({ value: this.state.value - 1 });
   },
 
-  /* jshint ignore:start */
   render: function () {
     return (
       <div>
@@ -21,7 +20,6 @@ var Counter = React.createClass({
       </div>
     );
   }
-  /* jshint ignore:end */
 });
 
 module.exports = Counter;

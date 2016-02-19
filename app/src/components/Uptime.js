@@ -6,7 +6,7 @@ var Uptime = React.createClass({
   componentDidMount: function () {
     this.interval = setInterval(function () {
       this.setState({ startDate: this.state.startDate });
-    }.bind(this), 500);
+    }.bind(this), 10);
   },
 
   componentWillUnmount: function () {
